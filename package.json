@@ -1,21 +1,33 @@
 {
-    "name": "spookie",
-    "displayName": "spookie",
-    "description": "A hacktober theme",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.49.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Spookie",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Spookie-color-theme.json"
-            }
-        ]
-    }
+  "name": "spookie",
+  "displayName": "spookie",
+  "description": "A hacktober theme",
+  "author": {
+    "email": "nrichards@biggby.com",
+    "name": "Nathaniel Richards",
+    "url": "https://nathanielrichards.dev"
+  },
+  "publisher": "NateTheDev",
+  "galleryBanner": {
+    "color": "#231934",
+    "theme": "dark"
+  },
+  "icon": "./pumpkin.png",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.49.0"
+  },
+  "categories": [
+    "Themes",
+    "Other"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Spookie",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Spookie-color-theme.json"
+      }
+    ]
+  }
 }
